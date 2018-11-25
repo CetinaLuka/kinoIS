@@ -1,0 +1,95 @@
+a:hover{
+    text-decoration: none;
+    color:inherit !important;
+}
+button:focus{
+    outline:none;
+}
+body{
+    height: 100%;
+    font-family: Roboto, sans-serif;
+    background-color: #f3f3f3;
+}
+/*header stvari*/
+header.mdc-top-app-bar{
+    position:static;
+}
+header a span.mdc-top-app-bar__title{
+    font-size: 1.75rem;
+    color: white;
+}
+header a span.mdc-top-app-bar__title:hover{
+    color: white;
+}
+header div.navbarLink{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 40px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+header div.navbarLink:hover{
+    background-color: #f3f3f3;
+    color: #6300ee;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -ms-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+/*prijava card*/
+#prijavaCard{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+#posljiPrijavo{
+    text-transform: none;
+    color: #6300ee;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -ms-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+#posljiPrijavo:hover{
+    color: white;
+    background-color: #6300ee;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #6300ee !important;
+}
+.input-field input[type=text]:focus + label {
+    color: #6300ee !important;
+}
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #6300ee !important;
+}
+.input-field input[type=password]:focus + label {
+    color: #6300ee !important;
+}
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #6300ee !important;
+}
+.input-field input[type=email]:focus + label {
+    color: #6300ee !important;
+}
+
