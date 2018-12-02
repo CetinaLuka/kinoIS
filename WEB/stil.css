@@ -7,7 +7,8 @@ button:focus{
 }
 body{
     height: 100%;
-    font-family: Roboto, sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Quicksand', sans-serif;
     background-color: #f3f3f3;
 }
 /*header stvari*/
@@ -15,6 +16,8 @@ header.mdc-top-app-bar{
     position:static;
 }
 header a span.mdc-top-app-bar__title{
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Quicksand', sans-serif;
     font-size: 1.75rem;
     color: white;
 }
@@ -56,7 +59,7 @@ header div.navbarLink:hover{
 #posljiPrijavo{
     text-transform: none;
     color: #6300ee;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;
     width: 100px;
     height: 40px;
@@ -91,5 +94,13 @@ header div.navbarLink:hover{
 }
 .input-field input[type=email]:focus + label {
     color: #6300ee !important;
+}
+#content{
+    padding: 25px;
+}
+.filmKartica{
+}
+.filmKartica .filmSlika{
+    max-height: 320px;
 }
 

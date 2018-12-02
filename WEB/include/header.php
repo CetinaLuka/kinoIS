@@ -7,7 +7,7 @@
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
             <?php
             if(@isset($_SESSION["uporabnik"])){?>
-                <a onclick="odjava()"><div class="navbarLink  waves-effect waves-grey-lighten-5">Odjava</div></a>
+                <a href="odjava.php""><div class="navbarLink  waves-effect waves-grey-lighten-5">Odjava</div></a>
                 <a ><div class="navbarLink  waves-effect waves-grey-lighten-5">Moj račun</div></a>
             <?php
             }
