@@ -99,8 +99,17 @@ header div.navbarLink:hover{
     padding: 25px;
 }
 .filmKartica{
+    height: 400px;
 }
 .filmKartica .filmSlika{
-    max-height: 320px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+colFilmKartica{
+
+}
+#fab{
+    z-index: 2;
 }
 

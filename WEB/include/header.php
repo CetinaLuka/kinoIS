@@ -6,18 +6,18 @@
         </section>
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
             <?php
-            if(@isset($_SESSION["uporabnik"])){?>
-                <a href="odjava.php""><div class="navbarLink  waves-effect waves-grey-lighten-5">Odjava</div></a>
-                <a ><div class="navbarLink  waves-effect waves-grey-lighten-5">Moj račun</div></a>
+            if(isset($_SESSION["uporabniskoIme"])){?>
+                <a href="../php/odjava.php""><div class="navbarLink  waves-effect waves-grey-lighten-5">Odjava</div></a>
+                <a href=""><div class="navbarLink  waves-effect waves-grey-lighten-5">Moj račun</div></a>
             <?php
             }
             else{?>
-                <a onclick="naloziPrijavo()"><div class="navbarLink  waves-effect waves-grey-lighten-5">Prijava</div></a>
-                <a onclick="naloziRegistracijo()"><div class="navbarLink  waves-effect waves-grey-lighten-5">Registracija</div></a>
+                <a href="prijavaForm.php"><div class="navbarLink  waves-effect waves-grey-lighten-5">Prijava</div></a>
+                <a href="registracijaForm.php"><div class="navbarLink  waves-effect waves-grey-lighten-5">Registracija</div></a>
             <?php
             }
             ?>
-            <a ><div class="navbarLink waves-effect waves-grey-lighten-5">Košarica</div></a>
+            <a href=""><div class="navbarLink waves-effect waves-grey-lighten-5">Košarica</div></a>
         </section>
     </div>
 </header>
